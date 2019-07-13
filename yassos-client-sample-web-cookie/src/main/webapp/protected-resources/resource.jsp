@@ -28,6 +28,8 @@
     </div>
 
     <div>
+        <button onclick="loadCookie('x-yassos-token')" class="btn btn-info">getCookie</button>
+        <a class="btn btn-success" href="index.jsp">to index.jsp</a>
         <%
             Object obj = request.getSession().getAttribute("yassos_current_session");
             if (obj != null && ((YassosSession) obj).isValid()) {
@@ -36,8 +38,6 @@
         <%
             }
         %>
-        <button onclick="loadCookie('x-yassos-token')" class="btn btn-info">getCookie</button>
-        <a class="btn btn-success" href="index.jsp">to index.jsp</a>
         <br/>
         <pre id="cookie-text" style="margin-top: 5px;"></pre>
     </div>

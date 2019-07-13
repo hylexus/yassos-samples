@@ -16,7 +16,7 @@ import java.io.IOException;
  * Created At 2019-06-07 20:23
  */
 @Configuration
-public class SsoConfig {
+public class YassosConfig {
 
     /**
      * expose a bean instance of {@link TokenResolver} to override default tokenResolver provided by {@link YassosClientAutoConfiguration}
