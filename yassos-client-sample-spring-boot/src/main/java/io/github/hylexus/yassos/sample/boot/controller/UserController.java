@@ -1,4 +1,4 @@
-package cn.yassos.sample.boot.controller;
+package io.github.hylexus.yassos.sample.boot.controller;
 
 import io.github.hylexus.yassos.client.boot.props.YassosClientProps;
 import org.springframework.beans.factory.annotation.Autowired;

@@ -1,4 +1,4 @@
-package io.github.hylexus.yassos.web.filter;
+package io.github.hylexus.yassos.sample.web.filter;
 
 import com.alibaba.fastjson.JSON;
 import io.github.hylexus.yassos.client.filter.YassosSingOnFilter;

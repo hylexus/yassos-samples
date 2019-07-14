@@ -1,4 +1,4 @@
-package cn.yassos.sample.boot.config;
+package io.github.hylexus.yassos.sample.boot.config;
 
 import io.github.hylexus.yassos.client.boot.config.YassosClientAutoConfiguration;
 import io.github.hylexus.yassos.client.handler.LogoutHandler;

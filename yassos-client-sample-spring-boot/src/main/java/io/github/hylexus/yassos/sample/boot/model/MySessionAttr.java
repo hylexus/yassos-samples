@@ -1,4 +1,4 @@
-package cn.yassos.sample.boot.model;
+package io.github.hylexus.yassos.sample.boot.model;
 
 import io.github.hylexus.yassos.core.session.YassosSessionAttr;
 import lombok.Getter;

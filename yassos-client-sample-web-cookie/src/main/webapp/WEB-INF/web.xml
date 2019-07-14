@@ -6,7 +6,7 @@
     <display-name>Archetype Created Web Application</display-name>
     <filter>
         <filter-name>yassosSinOnFilter</filter-name>
-        <filter-class>io.github.hylexus.yassos.web.filter.MyYassosSignOnFilter</filter-class>
+        <filter-class>io.github.hylexus.yassos.sample.web.filter.MyYassosSignOnFilter</filter-class>
 
         <init-param>
             <param-name>ssoServerLoginUrl</param-name>

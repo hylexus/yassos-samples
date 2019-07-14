@@ -1,4 +1,4 @@
-package cn.yassos.sample.boot;
+package io.github.hylexus.yassos.sample.boot;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
