@@ -50,7 +50,7 @@
     </dependencies>
 
     <build>
-        <finalName>yassos-sample-web</finalName>
+        <finalName>yassos-client-sample-web-cookie</finalName>
         <pluginManagement>
             <plugins>
                 <plugin>

@@ -18,8 +18,8 @@ yassos:
     use-session: true
     session-key: yassos_session_key
   server:
-    server-url-prefix: http://sso.mine.com:9000/
-    sign-on-url: http://sso.mine.com:9000/login
+    server-url-prefix: http://sso.mine.com:5201/
+    sign-on-url: http://sso.mine.com:5201/login
   filter-metadata:
     name: yassos-client-filter
     url-patterns: /*
