@@ -12,6 +12,7 @@
     <modules>
         <module>yassos-client-sample-spring-boot</module>
         <module>yassos-client-sample-web-cookie</module>
+        <module>yassos-server-sample-plugin</module>
     </modules>
     <properties>
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
@@ -47,6 +48,19 @@
                 <artifactId>yassos-client-spring-boot-starter</artifactId>
                 <version>${project.version}</version>
             </dependency>
+
+            <dependency>
+                <groupId>io.github.hylexus</groupId>
+                <artifactId>yassos-server-support</artifactId>
+                <version>${project.version}</version>
+            </dependency>
+
+            <dependency>
+                <groupId>com.google.guava</groupId>
+                <artifactId>guava</artifactId>
+                <version>23.0</version>
+            </dependency>
+
         </dependencies>
     </dependencyManagement>
 
