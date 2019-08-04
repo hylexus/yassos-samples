@@ -1,9 +1,9 @@
 package io.github.hylexus.yassos.sample.support;
 
 import io.github.hylexus.yassos.support.annotation.YassosPlugin;
-import io.github.hylexus.yassos.support.auth.UserDetailService;
 import io.github.hylexus.yassos.support.model.DefaultUserDetails;
 import io.github.hylexus.yassos.support.model.UserDetails;
+import io.github.hylexus.yassos.support.user.loader.UserDetailsLoader;
 import lombok.extern.slf4j.Slf4j;
 
 import java.util.Random;
@@ -14,7 +14,7 @@ import java.util.Random;
  */
 @Slf4j
 @YassosPlugin(enabled = false)
-public class UserDetailServiceSample implements UserDetailService {
+public class UserDetailServiceSample implements UserDetailsLoader {
 
     @Override
     public UserDetails loadByUsername(String username) {

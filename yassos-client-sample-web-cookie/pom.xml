@@ -24,7 +24,7 @@
 
     <dependencies>
         <dependency>
-            <groupId>io.github.hylexus</groupId>
+            <groupId>io.github.hylexus.yassos</groupId>
             <artifactId>yassos-client</artifactId>
         </dependency>
 
