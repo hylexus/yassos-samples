@@ -41,6 +41,10 @@
             <groupId>com.google.guava</groupId>
             <artifactId>guava</artifactId>
         </dependency>
+        <dependency>
+            <groupId>io.github.hylexus.yassos</groupId>
+            <artifactId>yassos-client</artifactId>
+        </dependency>
 
     </dependencies>
 
@@ -64,8 +68,6 @@
                     <annotationProcessors>
                         <annotationProcessor>
                             org.springframework.boot.configurationprocessor.ConfigurationMetadataAnnotationProcessor
-                        </annotationProcessor>
-                        <annotationProcessor>lombok.launch.AnnotationProcessorHider$AnnotationProcessor
                         </annotationProcessor>
                     </annotationProcessors>
                 </configuration>
